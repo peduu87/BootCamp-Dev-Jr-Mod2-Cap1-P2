@@ -40,19 +40,30 @@ body {
 }
 
 input {
-    height: 22px;
-    padding: 8px;
-    font-size: 1.2rem;
+    height: 45px;
+    padding: 15px;
+    font-size: 1.5rem;
     border-radius: 8px;
     outline: none;
     border: none;
-    width: 270px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 input[type="number"]:focus {
     outline: none;
     border: solid 2px #74d0ff;
-    padding: 6px;
+    padding: 13px;
+    box-sizing: border-box;
+
+}
+
+.op-buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;
 }
 
 button {
@@ -62,8 +73,9 @@ button {
     padding: 15px 32px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     border-radius: 8px;
+    margin: 0%;
 }
 
 button:hover {
